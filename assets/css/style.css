@@ -1,0 +1,1391 @@
+
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.pad_none{
+	padding:0 !important;
+}
+
+body{
+	font-weight:400;font-family: 'Roboto', sans-serif;
+}
+
+a:focus,a:hover{
+	text-decoration:none;
+}
+a{
+	transition: all 1s ease 0s;
+}
+
+main
+{
+	position:relative;
+}
+
+/* ---------------------header part start------------------ */
+header {
+  float: left;
+  padding: 20px 0;
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+   transition: all 1s ease 0s;
+}
+
+header.fixed {
+  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+  box-shadow: 0 0 4px;
+  left: 0;
+  padding: 7px 0;
+  position: fixed;
+  top: 0;
+  transition: all 1s ease 0s;
+  z-index: 99999;
+}
+
+.header_main-part
+{
+	
+}
+
+.logo-main
+{
+}
+
+
+header.fixed .logo-main img {
+  width: 310px;
+   transition: all 1s ease 0s;
+}
+
+header.fixed .navigation-part .nav_bar li {
+  margin-right: 33px !important;
+   transition: all 1s ease 0s;
+}
+header.fixed  .navigation-part .nav_bar li a {
+  font-size: 18px;
+  transition: all 1s ease 0s;
+}
+.logo-main img 
+{
+  width: 390px;
+  transition: all 1s ease 0s;
+}
+.navbar-collapse 
+{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.navigation-part 
+{
+  margin-top: 30px;
+  text-align:right;
+  
+}
+.navbar-default {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  float: right;
+}
+.navigation-part .nav_bar li 
+{
+  float: left;
+  margin-right:38px !important;
+  position:relative;
+   transition: all 1s ease 0s;
+}
+
+.navigation-part .nav_bar li a
+{
+	   font-family: 'proxima_nova_condensedregular';
+	color:#fff;
+	font-size:20px;
+	text-transform:uppercase;
+	text-decoration:none;
+	 transition: all 1s ease 0s;
+}
+
+
+
+.navigation-part .dropdown-menu {
+  border-radius: 6px;
+  display: none;
+  padding:0px !important;
+  min-width: 200px;
+  top: 35px;
+  
+}
+
+.dropdown-menu::after {
+  background: rgba(0, 0, 0, 0) url("../images/sub-menu-bg.png") no-repeat center top;
+  content: "";
+  height: 10px;
+  left: 17px;
+  position: absolute;
+  top:-9px;
+  width: 17px;
+}
+
+.navigation-part .nav_bar li:hover .dropdown-menu
+{
+	display:block;
+}
+
+.navigation-part .dropdown-menu li
+{
+	float:left;
+	width:100%;
+	margin:0px !important;
+}
+.navigation-part .dropdown-menu li a
+{
+	float:left;
+	width:100%;
+	padding:10px 15px !important;
+	background:#fff;
+	font-family: 'proxima_nova_condensedregular';
+	color:#303030;
+	font-size:20px;
+	text-transform:capitalize;
+	 border-radius: 5px ;
+}
+
+.navigation-part .dropdown-menu li a:hover
+{
+	background:#e1e1e1;
+	color:#303030 !important;
+}
+
+
+.navigation-part .nav_bar li a:hover .dropdown-menu
+{
+  display: block !important;
+}
+
+.navigation-part .nav_bar li:last-child
+{
+	margin-right:0px !important;
+}
+.navigation-part .nav_bar li a:hover
+{
+	color:#f5c438;
+	
+}
+
+
+
+
+
+/* ---------------------header part end------------------ */
+
+
+/* ---------------------Banner part start------------------ */
+.banner-main {
+  background: rgba(0, 0, 0, 0) url("../images/main-banner.jpg") no-repeat scroll center top / cover ;
+  float: left;
+  padding: 240px 0 130px !important;
+  position: relative;
+  width: 100%;
+  z-index: 9;
+}
+
+.banner-inner
+{
+	text-align:left;
+	width:45%;
+}
+.banner-inner h2 {
+  color: #ffffff;
+  font-family: "bebas_neuebold";
+  font-size: 94px;
+  font-weight: normal;
+  line-height: 80px;
+  margin: 0 0 20px 0;
+  padding-bottom: 20px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.banner-inner h2 span
+{
+	color:#f5ba13;
+}
+
+.banner-inner h2::after {
+  background: #ffffff none repeat scroll 0 0;
+  bottom: 0;
+  color: #ffffff;
+  content: "";
+  height: 1px;
+  left: 5px;
+  position: absolute;
+  width: 121px;
+}
+
+.banner-inner p {
+  color: #ffffff;
+  font-family: "proxima_nova_condensedSBd";
+  font-size: 16px;
+  line-height: 23px;
+  margin: 0;
+}
+
+.banner-inner p strong
+{
+	color:#f5ba13;
+	font-size:16px;
+	text-transform:uppercase;
+}
+.banner-inner h5
+{
+	color:#fff;
+	font-size:16px;
+	margin:0px;
+	font-family: 'proxima_nova_condensedSBd';
+	text-transform:capitalize;
+	 line-height: 23px;
+}
+.read-more-banner {
+  background: #f5ba13 none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #000000;
+  float: left;
+  font-family: "proxima_novabold";
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 13px 28px !important;
+  box-shadow: 0px 5px 0px 0 #a1790c;
+  transition: all 1s ease 0s;
+}
+
+.read-more-banner:hover
+{
+	text-decoration:none;
+	background:#fff;
+	color:#000;
+	 box-shadow: 0px 5px 0px 0 #a1790c;
+	  transition: all 1s ease 0s;
+}
+
+.banr-readmore3 {
+  margin: -5px 0 0 10px;
+}
+
+
+.gold-cost-right {
+  position: absolute;
+  right: 30px;
+  top: 43%;
+}
+
+.gold-cost-right img
+{
+	width:100px;
+}
+
+
+/* ---------------------Banner part end------------------ */
+
+
+/* --------exclusive-reprensentatio part start ----------- */
+.exclusive-reprensentatio-main
+{
+	float:left;
+	width:100%;
+	background:#fff;
+	padding:100px 0 80px 0 !important;
+}
+.exclusive-reprensentatio-inner
+{
+	text-align:center;
+}
+
+
+
+.exclusive-reprensentatio-inner h2 {
+  color: #323232;
+  font-family: "proxima_novabold";
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 47px;
+  margin: 0 0 30px;
+  padding-bottom: 28px;
+  position: relative;
+  text-transform: uppercase;
+}
+.exclusive-reprensentatio-inner h2::after {
+  background: #f5ba13 none repeat scroll 0 0;
+  bottom: -4px;
+  color: #f5ba13;
+  content: "";
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%);
+  width: 200px;
+}
+
+.exclusive-flages-out
+{
+	
+}
+.exclusive-firts-country {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 5px;
+  box-shadow: 0 0 8px #eaeaea;
+  display: table;
+  float: left;
+  margin: 0 10px 20px;
+  padding: 14px 17px !important;
+  width: 18.22%;
+}
+
+.exclusive-firts-country:hover
+{
+	 box-shadow: 0 0 8px #f5ba13 ;
+}
+.exclusive-firts-country span
+{
+	float:left;
+	margin-right:10px;
+}
+
+.exclusive-firts-country p {
+  color: #414141;
+  display: table-cell;
+  float: none;
+  font-family: "proxima_novabold";
+  font-size: 16px;
+  margin: 0;
+  text-align: left;
+  text-transform: uppercase;
+  vertical-align: middle;
+  width: auto;
+  line-height: 18px;
+}
+
+.exclusive-reprensentatio-main.authoriesde-part-main
+{
+	background:#e7e7e7;
+}
+
+
+
+/* -------------exclusive-reprensentatio part end ------------ */
+
+
+
+/* ------------- shopping cart part start ------------ */
+.shopping-cart-main
+{
+	float:left;
+	width:100%;
+	background:url(../images/shopping-bg-main.jpg) center top no-repeat;
+	background-size:cover;
+	padding:170px 0 125px !important;
+}
+.shopping_cart_top {
+  float: right;
+  margin: 0 0 48px;
+  padding: 0 0 0 0px !important;
+  text-align: left;
+}
+.shopping_cart_top h2 {
+  color: #323232;
+  font-family: "proxima_novabold";
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 68px;
+  margin: 0 0 20px;
+  padding-bottom: 20px;
+  position: relative;
+  text-transform: uppercase;
+}
+.shopping_cart_top h2::after {
+  background: #f5ba13 none repeat scroll 0 0;
+  bottom: -4px;
+  color: #f5ba13;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 182px;
+}
+.shopping_cart_top p {
+  color: #414141;
+  font-family: 'proxima_nova_condensedlight';
+  font-size: 16px;
+  line-height: 23px;
+  margin: 0;
+}
+
+.shopping_cart_inner
+{
+	background:#f5ba13;
+	position:relative;
+}
+.guaranteed-part1 {
+  margin:-310px 0 0;
+  position: relative;
+}
+
+/* .guaranteed-part1 {
+  background: rgba(0, 0, 0, 0) url("../images/shopping-big-img2.jpg") no-repeat scroll center top / cover ; 
+  border-radius: 4px;
+  margin: -324px 0 0;
+  padding: 20px !important;
+  position: relative;
+} */
+
+.guaranteed-part1-imgnew2 {
+  height: 780px;
+  position: relative;
+}
+
+.guaranteed-part1-imgnew2 img 
+{
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.guaranteed-part1-imgnew2:hover .guaranteed-part1-content-main2
+{
+	display:none;
+}
+.guaranteed-part1-imgnew2:hover .guaranteed-part1-inner
+{
+	display:block;
+}
+
+
+
+
+.guaranteed-part1-content-main2 > samp {
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+.col-xs-12.pad_none.guaranteed-part1-content-main2 samp img {
+  width: auto;
+}
+.guaranteed-part1-content-main2 {
+  bottom:10px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 99;
+}
+.guaranteed-part1-content-main2 h3 {
+  color: #f4f4f4;
+  font-family: "proxima_novabold";
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 28px;
+  margin: 0 0 14px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.guaranteed-part1-content-main2 h3 span
+{
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:normal;
+	  font-family: 'proxima_nova_condensedlight';
+	  position:relative;
+}
+.guaranteed-part1-content-main2 h3 span::after {
+  background: #f4f4f4 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  left: -23px;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.guaranteed-part1-content-main2 h3 span::before {
+  background: #f4f4f4 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  right: -23px;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+.guaranteed-part1-inner {
+  background: rgba(0, 0, 0, 0.68) none repeat scroll 0 0;
+  border-radius: 4px;
+  display: none;
+  padding: 100px 20px !important;
+  position: absolute;
+  top: 0;
+  margin: 20px;
+  width: auto;
+}
+.authprised-territories-img {
+  position: absolute;
+  right: 20px;
+  top: 27px;
+}
+.guaranteed-content-sec {
+  display: table-cell;
+  float: none;
+  height: 540px;
+  text-align: center;
+  vertical-align: middle;
+}
+.guaranteed-content-sec h3 {
+  color: #f4f4f4;
+  font-family: "proxima_novabold";
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0 0 18px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 28px;
+}
+.guaranteed-content-sec h3 span
+{
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:normal;
+	  font-family: 'proxima_nova_condensedlight';
+	  position:relative;
+}
+.guaranteed-content-sec h3 span::after {
+  background: #f4f4f4 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  left: -23px;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.guaranteed-content-sec h3 span::before {
+  background: #f4f4f4 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  right: -23px;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+.guaranteed-content-sec p {
+  color: #ffffff;
+  font-family: "proxima_nova_condensedregular";
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: capitalize;
+  padding: 0 8% !important;
+  margin: 0px;
+}
+.guaranteed-part1-overlay.overlay3 .guaranteed-content-sec {
+  display: table-cell;
+  float: none;
+  height: 185px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.guaranteed-part1-overlay.overlay5 .guaranteed-content-sec {
+  display: table-cell;
+  float: none;
+  height: 200px;
+  text-align: center;
+  vertical-align: middle;
+}
+.col-xs-12.pad_none.guaranteed-part1-overlay.overlay3 {
+  height: 185px;
+  width: 91%;
+}
+.accommodation1-main.space4 {
+  display: block;
+  height: 235px;
+  overflow: hidden;
+  padding: 4px !important;
+}
+/* .space4.accommodation1-main a img {
+  border-radius: 4px;
+  height: auto;
+  width: 100%;
+} */
+.guaranteed-part1-overlay.overlay4 {
+  height: 430px;
+  width: 92%;
+}
+/* 
+.sales-permitted-outer {
+   background: rgba(0, 0, 0, 0) url("../images/sales-permitted-img2.png") no-repeat scroll center top / cover ; 
+  display: table;
+  margin: 20px 0 8px;
+  text-align: center;
+  border-radius: 4px;
+} */
+.guaranteed-part1-main {
+  padding-right: 30px !important;
+}
+.col-xs-12.pad_none.accommodation1-main.sales-permitted-outer {
+  margin-top:30px;
+}
+
+.sales3-permitted-inner {
+  display: table-cell;
+  height: 248px;
+  text-align: center;
+  vertical-align: middle;
+  float: none;
+}
+
+.sales3-permitted-inner h3 
+{
+  color: #f4f4f4;
+  font-family: "proxima_novabold";
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 28px;
+  margin: 123px 0 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.sales3-permitted-inner h3 span {
+  font-family: "proxima_nova_condensedlight";
+  font-size: 14px;
+  font-weight: normal;
+  position: relative;
+  text-transform: uppercase;
+}
+.sales3-permitted-inner h3 span::before {
+  background: #f4f4f4 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  position: absolute;
+  right: -23px;
+  top: 7px;
+  width: 12px;
+}
+
+.sales3-permitted-inner h3 span::after {
+  background: #f4f4f4 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  left: -23px;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+.sales3-permitted-inner
+{
+	text-align:center;
+}
+
+
+.guaranteed-part2-main-right
+{
+	padding-left:50px !important;
+}
+.accommodation1-main {
+ /*  background: rgba(0, 0, 0, 0) url("../images/accomodation-img2.png") no-repeat scroll center top / cover ; */
+  display: table;
+  margin: 0;
+  text-align: center;
+  padding: 0 0 0px 0 !important;
+ 
+  position:relative;
+}
+
+.accommodation1-main a img 
+{
+  border-radius: 4px 0 0 0;
+  height: auto;
+  width: 100%;
+}
+.col-xs-12.pad_none.accommodation1-main-inner > samp img
+{
+	width:auto;
+}
+
+
+.accommodation1-main:hover .accommodation1-main-inner
+{
+	display:none;
+}
+
+.authprised-territories-img.short-new {
+  position: absolute;
+  right: 15px;
+  top: 18px;
+}
+.guaranteed-part1-overlay.overlay2 .guaranteed-content-sec {
+  height: 270px;
+}
+.accommodation1-main:hover .guaranteed-part1-overlay
+{
+	display:block;
+}
+.authprised-territories-img.short-new > img {
+  width: 50px;
+}
+
+.guaranteed-part1-overlay {
+  background: rgba(0, 0, 0, 0.68) none repeat scroll 0 0;
+  border-radius: 1px;
+  float: none;
+  height:auto;
+  display:none;
+  margin: 20px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  vertical-align: middle;
+  width: 88%;
+}
+.guaranteed-part1-overlay .guaranteed-content-sec {
+  display: table-cell;
+  float: none;
+  height: 390px;
+  text-align: center;
+  vertical-align: middle;
+}
+/* black overlay*/
+
+.accommodation-overlay2
+{
+	position:absolute;
+	background:rgba(0,0,0,.44);
+	top:0;
+	left:0;
+	float:left;
+	width:100%;
+	display:none;
+}
+.accommodation1-main:hover .accommodation-overlay2
+{
+	display:block;
+}
+/* .accommodation1-main:hover .accommodation1-main-inner h3
+{
+	display:none;
+}
+ */
+
+/* black overlay */
+
+.accommodation1-main-inner {
+  bottom: 12px;
+  float: none;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  z-index: 9;
+}
+.accommodation1-main-inner h3 {
+  color: #f4f4f4;
+  font-family: "proxima_novabold";
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 28px;
+  margin: 0 0 13px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.accommodation1-main-inner h3 span {
+  font-family: "proxima_nova_condensedlight";
+  font-size: 14px;
+  font-weight: normal;
+  position: relative;
+  text-transform: uppercase;
+}
+.accommodation1-main-inner h3 span::before {
+  background: #f4f4f4 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  position: absolute;
+  right: -23px;
+  top: 7px;
+  width: 12px;
+}
+
+.accommodation1-main-inner h3 span::after {
+  background: #f4f4f4 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  left: -23px;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+
+.hospitality1-main
+{
+	background: rgba(0, 0, 0, 0) url("../images/hospital-img2.png") no-repeat center top / cover ;
+  display: table;
+  margin: 0;
+  text-align: center;
+  padding: 0 0 6px 0 !important;
+  border-radius: 0px 4px 0 0px;
+}
+
+.hospitality1-inner
+ {
+   display: table-cell;
+  float: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.hospitality1-inner h3 {
+  color: #f4f4f4;
+  font-family: "proxima_novabold";
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 28px;
+  margin: 300px 0 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hospitality1-inner h3 span {
+  font-family: "proxima_nova_condensedlight";
+  font-size: 14px;
+  font-weight: normal;
+  position: relative;
+  text-transform: uppercase;
+}
+.hospitality1-inner h3 span::before {
+  background: #f4f4f4 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  position: absolute;
+  right: -23px;
+  top: 7px;
+  width: 12px;
+}
+
+.hospitality1-inner h3 span::after {
+  background: #f4f4f4 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  left: -23px;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+
+
+
+.create-own-program2-main
+{
+	background: rgba(0, 0, 0, 0) url("../images/your-own-program-img2.png") no-repeat scroll center top / cover ;
+  display: table;
+  margin: 0;
+  text-align: center;
+  padding: 0 0 6px 0 !important;
+  border-radius: 4px 0 0px 4px;
+}
+.create-own-program2-inner
+ {
+  display: table-cell;
+  float: none;
+  text-align: center;
+  vertical-align: middle;
+}
+.create-own-program2-inner h3 {
+  color: #f4f4f4;
+  font-family: "proxima_novabold";
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 28px;
+  margin: 200px 0 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.create-own-program2-inner  h3 span::before {
+  background: #f4f4f4 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  position: absolute;
+  right: -23px;
+  top: 7px;
+  width: 12px;
+}
+.create-own-program2-inner h3 span::after {
+  background: #f4f4f4 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  left: -23px;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+.create-own-program2-inner h3 span {
+  font-family: "proxima_nova_condensedlight";
+  font-size: 14px;
+  font-weight: normal;
+  position: relative;
+  text-transform: uppercase;
+}
+
+
+
+
+.create-own-program2-new-right
+{
+  background: rgba(0, 0, 0, 0) url("../images/create-new-img4.png") no-repeat scroll center top / cover ;
+  display: table;
+  margin: 0;
+  text-align: center;
+  padding: 0 0 6px 0 !important;
+  border-radius:0 0 4px 0;
+}
+
+
+.create-own-program2-new-right-inner
+ {
+  display: table-cell;
+  float: none;
+  text-align: center;
+  vertical-align: middle;
+}
+.create-own-program2-new-right-inner h3 {
+  color: #f4f4f4;
+  font-family: "proxima_novabold";
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 28px;
+  margin: 207px 0 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.create-own-program2-new-right-inner  h3 span::before {
+  background: #f4f4f4 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  position: absolute;
+  right: -23px;
+  top: 7px;
+  width: 12px;
+}
+.create-own-program2-new-right-inner h3 span::after {
+  background: #f4f4f4 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  left: -23px;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+.create-own-program2-new-right-inner h3 span {
+  font-family: "proxima_nova_condensedlight";
+  font-size: 14px;
+  font-weight: normal;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.green-ring-bg2
+{
+	position:absolute;
+	right:0;
+	bottom:120px;
+}
+.green-ring-bg2  img {
+  width: 65px;
+}
+
+
+
+.shopping-botttom2-inner
+{
+	margin-top:40px;
+}
+
+.accomdation-sales-permited-main
+{
+	
+}
+
+.accomdation-sales-inner-left
+{
+	padding-right:10px !important;
+	background: rgba(0, 0, 0, 0) url("../images/accomdation-sales-inner-left2.png") no-repeat center top / cover ;
+	display: table;
+	margin: 0;
+	text-align: center;
+	padding: 0 0 6px 0 !important;
+	border-radius:0 0 4px 0;
+	border-radius:4px;
+}
+.accomdation-sales-inner-left-bottom
+{
+display: table-cell;
+  float: none;
+  text-align: center;
+  vertical-align: middle;	
+}
+.accomdation-sales-inner-left-bottom h3 {
+  color: #f4f4f4;
+  font-family: "proxima_novabold";
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 28px;
+  margin: 386px 0 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.accomdation-sales-inner-left-bottom h3 span::before {
+  background: #f4f4f4 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  position: absolute;
+  right: -23px;
+  top: 7px;
+  width: 12px;
+}
+.accomdation-sales-inner-left-bottom h3 span::after {
+  background: #f4f4f4 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  left: -23px;
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+.accomdation-sales-inner-left-bottom h3 span {
+  font-family: "proxima_nova_condensedlight";
+  font-size: 14px;
+  font-weight: normal;
+  position: relative;
+  text-transform: uppercase;
+}
+
+
+.accomdation-sales-inner-right {
+  padding: 0 0 0 25px !important;
+}
+
+.create-own-space-outer2
+{
+	padding:0 5px !important;
+	margin-bottom:10px;
+}
+
+
+
+.sydney-program2-main2 {
+  background: rgba(0, 0, 0, 0) url("../images/sydney-ticket2.png") no-repeat center top / cover ;
+  border-radius:4px;
+  display: table;
+  margin: 0;
+  padding: 0 0 6px !important;
+  text-align: center;
+}
+
+.new-zealand-program2-main2 {
+  background: rgba(0, 0, 0, 0) url("../images/newziland-ticket2.png") no-repeat center top / cover ;
+ border-radius:4px;
+  display: table;
+  margin: 0;
+  padding: 0 0 6px !important;
+  text-align: center;
+}
+
+.cairns-program2-main2
+{
+	background: rgba(0, 0, 0, 0) url("../images/chairn-ticket2.png") no-repeat center top / cover ;
+   border-radius:4px;
+  display: table;
+  margin: 0;
+  padding: 0 0 6px !important;
+  text-align: center;
+}
+
+.melbourne-program2-main2
+{
+	 background: rgba(0, 0, 0, 0) url("../images/malbourn-ticket2.png") no-repeat center top / cover ;
+  border-radius:4px;
+  display: table;
+  margin: 0;
+  padding: 0 0 6px !important;
+  text-align: center;
+}
+
+.create-own-program2-inner.sydney-program2-same2 h3 {
+  margin: 140px 0 12px;
+}
+
+
+/* ------------- shopping cart part end ------------ */
+
+
+
+/* ------------- subscribe part start ------------ */
+.subcribe-main-out
+{
+	float:left;
+	width:100%;
+	padding:120px 0 !important;
+	background:url(../images/subscribe-bg.jpg) center top no-repeat;
+	background-size:cover;
+}
+
+.subscribe-inner-main2
+{
+	text-align:center;
+}
+
+.subscribe-inner-main2 h2 {
+  color: #f4f4f4;
+  font-family: "proxima_novabold";
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 28px;
+  text-align: center;
+  margin:0px 0 50px 0;
+  text-transform: uppercase;
+}
+.subscribe-inner-main2 h2 span {
+  float: left;
+  text-align: center;
+  width: 100%;
+  margin: 0 0 30px 0;
+}
+
+.sbscribe2-field-outer{
+	text-align:center;
+	float:left;
+	width:100%;
+}
+.sbscribe2-field-outer input
+{
+	border:1px solid #fff;
+	background:transparent;
+	border-radius:4px;
+	padding:20px 25px !important;
+	font-family: 'proxima_nova_condensedlight';
+	font-size:16px;
+	color:#fff;
+	width:37%;
+	 margin: 0 5px 0 0;
+}
+
+.subscribe-submit {
+  background: #f5ba13 none repeat scroll 0 0;
+  border: 0 none;
+  border-radius: 5px;
+  box-shadow: 0 5px 0 0 #a1790c;
+  color: #000000;
+  display: inline-block;
+  float: none;
+  font-family: "proxima_novabold";
+  font-size: 18px;
+  margin: 0 0 0 5px;
+  padding: 18px 28px !important;
+  transition: all 1s ease 0s;
+  width: 200px;
+}
+
+.subscribe-submit:hover {
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: 0 5px 0 0 #a1790c;
+  color: #000000;
+  text-decoration: none;
+  transition: all 1s ease 0s;
+}
+
+/* ------------- subscribe part end ------------ */
+
+
+
+
+
+
+/* ------------- footer part start ------------ */
+footer
+{
+	float:left;
+	width:100%;
+	background:#fff;
+	padding:50px 0 0 0 !important;
+}
+
+.footer-inner-section1
+{
+	text-align:left;
+}
+
+
+.footer-inner-section1 p
+{
+	color:#646464;
+	font-size:#13px;
+	font-family: 'proxima_nova_condensedlight';
+	margin-top:20px;
+}
+.footer-inner-section1 p strong
+{
+	  font-family: 'proxima_nova_condensedSBd';
+}
+
+
+
+.footer-inner-section2
+{
+	text-align:left;
+	
+}
+
+
+.footer-inner-section2 h2
+{
+  color: #3c3c3c;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  position:relative;
+  margin:0px 0 25px 0;
+  position:relative;
+  padding: 0 0 10px 0 !important;
+}
+.footer-inner-section2 h2::after {
+  background: #f5ba13 none repeat scroll 0 0;
+  content: "";
+  height: 1px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 24px;
+}
+.footer-inner-section2 ul
+{
+	list-style:none;
+	margin:0px;
+	padding:0px !important;
+}
+.footer-inner-section2 li
+{
+	float:left;
+	width:100%;
+	margin-bottom:4px;
+	background:url(../images/footer-arrow-img.png) left 5px no-repeat;
+	padding-left:15px !important;
+}
+
+.footer-inner-section2 li a
+{
+	float:left;
+	color:#646464;
+	font-size:13px;
+	 font-family: 'Roboto', sans-serif;
+	 font-weight:300;
+	 text-transform:capitalize;
+}
+.footer-inner-section2 li a:hover
+{
+	color:#f5ba12;
+}
+.contact2-footer
+{
+	margin-bottom:15px;
+}
+.contact2-footer span {
+  float: left;
+  margin: 0 0px 0 0;
+  text-align: left;
+  width: 30px;
+}
+.contact2-footer p
+{
+	color:#646464;
+	float:left;
+	width:87%;
+	font-size:#13px;
+	font-family: 'proxima_nova_condensedlight';
+	margin-top:20px;
+	margin:0px;
+}
+.contact2-footer p a{
+	text-decoration:none;
+	color:#646464;
+}
+
+.map-marker-footer
+{
+	color:#f5ba12 !important; 
+	font-size:16px !important;
+}
+
+.phone3
+{
+	color:#f5ba12 !important; 
+	font-size:16px !important;
+}
+
+.envelope2
+{
+	color:#f5ba12 !important; 
+	font-size:16px !important;
+}
+.follow-us-main2
+{
+	margin-top:15px;
+}
+.follow-us-main2 samp
+{
+	color: #646464;
+  float: left;
+  font-family: "proxima_nova_condensedlight";
+  margin: 0;
+  width: auto;
+  font-size:18px;
+  margin:10px 15px 0 0;
+}
+
+.follow-us-main2 ul
+{
+	list-style:none;
+	padding:0px !important;
+	margin:0px;
+}
+.follow-us-main2 li {
+  background-image: none;
+  float: left;
+  margin: 0 4px 0 0;
+  padding: 0 !important;
+  width: auto;
+}
+
+.copy-right-out
+{
+	float:left;
+	width:100%;
+	padding:25px 0 !important;
+	border-top:1px solid #ebebeb;
+	margin-top:30px;
+}
+.copy-right-out p
+{
+  color: #a8a8a8;
+ text-align:center;
+ font-size:13px;
+  font-family: "proxima_nova_condensedlight";
+  margin: 0;
+}
+
+/* ------------- footer part end ------------ */
+
+
+
+
+
+
+
+
